@@ -1,0 +1,41 @@
+/* PARALLAX COVER PHOTO */
+
+.card {
+  transition: transform .2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-title {
+    color: #111;
+    text-decoration: none !important;
+}
+
+#parallaxtitle {
+  position: absolute;
+  z-index: 2;
+  top: 200px;
+  left: 50%;
+  color: #bbb;
+}
+
+#parallaxsubtitle {
+  position: absolute;
+  z-index: 2;
+  top: 250px;
+  left: 50%;
+  color: #eee;
+}
+
+.parallax-mirror {
+    z-index:1;
+}
+
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
+
+/* OTHER */

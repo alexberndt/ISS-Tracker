@@ -1,0 +1,136 @@
+/* @import url('https://fonts.googleapis.com/css?family=Raleway');
+html,h1,h2,h3,h4,h5,h6,a{
+ font-family: "Raleway";
+} */
+
+
+/* * { padding: 0; margin: 0; }
+html, body, #fullheight {
+    min-height: 100% !important;
+    height: 100%;
+} */
+
+html, body {
+  margin: 0;
+  /* height: 100% !important; */
+  /* background: #fff; */
+}
+
+/* Mapbox map using Leaflet and openstreetmap */
+#map {height: 500px; }
+
+.container-fluid {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  padding: 5px;
+}
+
+.statistics-list {
+  list-style: none;
+  padding: 0;
+}
+
+.astronaut-list  {
+  list-style: none;
+  padding: 0;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    padding-top: 20px;
+    /* border-top: 10px solid #949; */
+    background-color: #01003124;
+    color: #949494cf;
+}
+
+.footer-section a {color: white; }
+
+
+/* ---------------------------- OLD ------------------------------------- */
+/*header is the background*/
+/* .header {
+ background-image: url('../images/header.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: fill;
+} */
+
+/* opaque over the header */
+/* .overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.1);
+} */
+
+/* description  */
+/* .description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+ color:#444;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #003d82;
+ background:#003d82;
+ color:#fff;
+} */
+
+/* about page */
+/*
+.about{
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+}
+.about h1{
+ color:#F97300;
+ margin: 2em;
+}
+.about img{
+ height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+ display: block;
+ color: #888;
+ position: absolute;
+ left: 115px;
+}
+.about .desc{
+ padding: 2em;
+ border-left:4px solid #10828C;
+}
+.about .desc h3{
+ color: #10828C;
+}
+.about .desc p{
+ line-height:2;
+ color:#888;
+}*/
+
+/* #statistics {
+  margin: 10px 0;
+  color: white;
+}
+
+#astronauts {
+  margin: 10px 0;
+  color: white;
+} */
