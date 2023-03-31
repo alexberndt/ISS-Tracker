@@ -2,12 +2,13 @@ FROM node:lts-alpine as build-stage
 
 WORKDIR /app
 
-COPY package*.json ./
-RUN npm install
+COPY package.json ./
+COPY yarn.lock ./
+RUN yarn install
 
 COPY . .
 
 ENV PORT 8080
 EXPOSE 8080
 
-CMD ["npm", "run", "start"]
+CMD ["yarn", "run", "start"]
