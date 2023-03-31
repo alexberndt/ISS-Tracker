@@ -14,13 +14,13 @@ Clone and install dependencies
 ```bash
 git clone https://github.com/alexberndt/iss-tracker.git
 cd iss-tracker
-npm install
+yarn install
 ```
 
 Run local development server
 
 ```bash
-npm run start
+yarn start
 ```
 
 ## Run with Docker 
